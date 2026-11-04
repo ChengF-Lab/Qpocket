@@ -1,0 +1,9 @@
+method,targets,mean_rmsd_A,median_rmsd_A,success_lt2A_percent,success_lt5A_percent
+Qpocket (this work),101,2.55,2.65,11.9%,100.0%
+VQE,55,3.64,3.67,1.8%,89.1%
+AF3,101,5.15,4.76,1.0%,50.5%
+ColabFold,101,8.75,7.54,0.0%,27.7%
+ColabFold-MSA,101,7.51,6.06,0.0%,38.6%
+ESMFold,101,9.43,8.64,0.0%,31.7%
+OmegaFold,101,9.86,9.41,2.0%,24.8%
+OpenFold,101,8.13,5.92,0.0%,38.6%

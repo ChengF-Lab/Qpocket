@@ -1,0 +1,149 @@
+path,bytes,rows,SI,description
+figure1/benchmark_rmsd_published_precision.csv,4774,101,S64,Final reported numeric results.
+figure1/benchmark_summary_published_precision.csv,363,8,S65,Final reported numeric results.
+figure2/docking_pose_scores_published_precision.csv,4361,81,S68,Final reported numeric results.
+figure2/docking_summary.csv,1365,9,S59-S60; S68,Final reported numeric results.
+figure2/kras_rmsd_final.csv,4541,37,S66,Final KRAS per-case RMSD results and original MEAN row; no per-run or per-candidate scores.
+figure3/projected_ensemble_summary_published_precision.csv,494,8,S69,Final reported numeric results.
+figure3/projected_samples_7200_published_precision.csv,288224,7200,S70,Final reported numeric results.
+figure4/basin_centers.csv,3315,30,S71-S75,Final reported numeric results.
+figure4/bootstrap_occupancy_stability.csv,31094,390,S71-S75,Final reported numeric results.
+figure4/case_basin_occupancy.csv,3447,36,S71-S75,Final reported numeric results.
+figure4/case_response_distance.csv,11081,116,S71-S75,Final reported numeric results.
+figure4/ligand_basin_occupancy.csv,1951,24,S71-S75,Final reported numeric results.
+figure4/ligand_basin_response.csv,3652,24,S71-S75,Final reported numeric results.
+figure4/ligand_response_distance.csv,3081,44,S71-S75,Final reported numeric results.
+figure4/mutation_basin_occupancy.csv,1728,18,S71-S75,Final reported numeric results.
+figure4/mutation_basin_response.csv,2658,18,S71-S75,Final reported numeric results.
+figure4/mutation_response_distance.csv,1746,24,S71-S75,Final reported numeric results.
+hardware/case_records.jsonl,133856,36,S6; S8-S19,"36 input/prior/quantum case records only; task-level RMSD, docking, landscape and reconstruction records excluded."
+hardware/dispatch_records.jsonl,14129716,108,S8-S19; Figs S7-S10,"Recorded circuit/dispatch scientific metadata, with provider IDs anonymized and identifying environment fields omitted."
+hardware/jobs.csv,98517,591,S8-S19,"591 jobs; archive-local job IDs; counts, budgets and durations only. Provider IDs and absolute timestamps excluded."
+hardware/workloads.csv,13187,108,S8-S19,108 workload summaries with recorded scientific fields; unavailable QASM and reconstructed gate-count fields omitted.
+inputs/kras_analysis_groups.csv,2767,36,S4-S7; S20-S23; S37,Scientific input structure or study-task definition.
+inputs/kras_tasks.csv,3988,36,S4-S7; S20-S23; S37,Scientific input structure or study-task definition.
+inputs/protein_sequence_summary.csv,1067,36,S4-S7; S20-S23; S37,Scientific input structure or study-task definition.
+inputs/structures/6GJ6.pdb,265599,,S20,Scientific input structure or study-task definition.
+inputs/structures/6GJ8.pdb,287550,,S20,Scientific input structure or study-task definition.
+inputs/structures/7RPZ.pdb,322380,,S20,Scientific input structure or study-task definition.
+inputs/structures/7RT1.pdb,326025,,S20,Scientific input structure or study-task definition.
+inputs/structures/7RT4.pdb,161757,,S20,Scientific input structure or study-task definition.
+inputs/structures/8AZV.pdb,422577,,S20,Scientific input structure or study-task definition.
+inputs/structures/8AZX.pdb,433431,,S20,Scientific input structure or study-task definition.
+inputs/structures/8AZY.pdb,431082,,S20,Scientific input structure or study-task definition.
+inputs/structures/8AZZ.pdb,440964,,S20,Scientific input structure or study-task definition.
+sensitivity/ligand_permutation_p_and_BH_q.csv,2263,36,S82,Final reported numeric results.
+sensitivity/pool_response_summary.csv,33616,78,"S81-S82; Figs S24-S29, S39",Final reported numeric results.
+sensitivity/random500_vs2000.csv,22646,228,Fig. S39,Final reported numeric results.
+quantum_counts/workload_001.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_003.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_002.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_004.csv,916735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_006.csv,916735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_005.csv,916735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_007.csv,916735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_009.csv,916735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_008.csv,916735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_010.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_012.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_011.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_013.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_015.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_014.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_016.csv,916735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_018.csv,916735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_017.csv,916735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_019.csv,916735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_021.csv,916735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_020.csv,916735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_022.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_024.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_023.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_025.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_027.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_026.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_028.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_030.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_029.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_031.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_033.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_032.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_034.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_036.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_035.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_037.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_039.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_038.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_040.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_042.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_041.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_043.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_045.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_044.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_046.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_048.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_047.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_049.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_051.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_050.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_052.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_054.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_053.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_055.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_057.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_056.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_058.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_060.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_059.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_061.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_063.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_062.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_064.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_066.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_065.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_067.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_069.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_068.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_070.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_072.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_071.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_073.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_075.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_074.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_076.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_078.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_077.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_079.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_081.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_080.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_082.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_084.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_083.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_085.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_087.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_086.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_088.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_090.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_089.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_091.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_093.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_092.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_094.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_096.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_095.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_097.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_099.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_098.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_100.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_102.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_101.csv,1876735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_103.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_105.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_104.csv,1516735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_106.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_108.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/workload_107.csv,1276735,20000,Raw quantum count excerpt,"First 20,000 source count entries in unchanged circuit-list and stored count-key order; original counts retained."
+quantum_counts/selection_index.csv,21514,108,Raw quantum count excerpt,"Per-workload selection size, raw count mass, truncation and ordered-entry SHA-256."
+quantum_counts/circuit_index.csv,50092,324,Raw quantum count excerpt,Circuit-name linkage and original/retained count-table totals; subset completeness explicitly identified.
+PROVENANCE.json,2903,,,"Public scientific provenance, selection definition, anonymous-ID semantics and verification counts."
+README.md,7862,,,"Public data definitions, source-order extraction, truncation, privacy and scientific limits."

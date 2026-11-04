@@ -1,0 +1,49 @@
+{
+  "package": "Qpocket quantum data and final numeric results",
+  "prepared_on": "2026-11-04",
+  "repository": "https://github.com/qiqi-xingyi/Qpocket",
+  "source_code_commit": "adcc0ac88254c9da17f739c7ddad5464d2e42714",
+  "source_code_commit_url": "https://github.com/qiqi-xingyi/Qpocket/commit/adcc0ac88254c9da17f739c7ddad5464d2e42714",
+  "historical_code_scope": "The repository commit identifies the accompanying checkout. It does not establish the exact historical hardware implementation.",
+  "accompanying_SI": {
+    "title": "Supporting Information for Quantum-Guided Ensemble Generation for Accurate Drug-Binding Pocket Prediction: Application to KRAS",
+    "sha256": "9c5c9b47905d95bc8c37ca44ac576cb3a89330af15d015721838e229b30b9ac5",
+    "pages": 139,
+    "tables": "S1-S82",
+    "figures": "S1-S42"
+  },
+  "public_job_identifiers": "job_0001 through job_0591 are consistent archive-local pseudonyms, not IBM Runtime IDs. The provider-ID mapping is excluded.",
+  "retention_scope": "Quantum scientific metadata and source-file-order raw count excerpts; other scientific data restricted to final numeric tables. Private execution metadata and intermediate structural/scoring records excluded.",
+  "verification": {
+    "quantum_cases": 36,
+    "quantum_workloads": 108,
+    "quantum_jobs": 591,
+    "saved_circuit_records": 12618,
+    "total_shots": 103366656,
+    "general_benchmark_final_rows": 101,
+    "KRAS_final_case_rows": 36,
+    "KRAS_cases_with_native_referenced_RMSD": 35,
+    "docking_final_system_rows": 9,
+    "SI_tabulated_docking_pose_rows": 81,
+    "projected_final_points": 7200,
+    "raw_count_source_files": 108,
+    "raw_count_entries_per_source_file": 20000,
+    "raw_count_entries_retained": 2160000,
+    "sum_of_retained_raw_counts": 2160017,
+    "source_circuits_touched": 324,
+    "source_entry_order_verified_for_all_excerpts": true,
+    "bitstring_and_count_values_preserved": true
+  },
+  "raw_count_excerpt": {
+    "source_format": "raw_counts.json circuit-list and bitstring-to-count mappings",
+    "selection_unit": "one saved bitstring/count entry, not one individual shot",
+    "selection_limit_per_workload": 20000,
+    "selection_order": "source-file circuit-list order followed by stored count-entry order; no sorting",
+    "individual_shot_order": "not recorded in the saved source format; not reconstructed",
+    "source_value_handling": "bitstrings and integer counts copied without expansion, reweighting or normalization",
+    "truncation": "Selection may cut a source circuit's count table. Every retained count remains its frequency in the original complete circuit result.",
+    "selection_index": "quantum_counts/selection_index.csv",
+    "circuit_index": "quantum_counts/circuit_index.csv",
+    "ordered_hash_encoding": "For each CSV row in sequence: circuit_index_0based TAB entry_index_1based TAB bitstring TAB count LF, ASCII, SHA-256."
+  }
+}
